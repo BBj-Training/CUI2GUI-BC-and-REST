@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_144" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.basis.util.common.settings.Metadata" id="Metadata0">
+    <void property="itemMap">
+     <void method="put">
+      <string>POST_OPEN</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>POST_OPEN</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>FORM</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>FORM</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>POST_CLOSE</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>POST_CLOSE</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>FLAGS</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>FLAGS</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>WIDE</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>WIDE</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>APP3</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>APP3</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>PRE_OPEN</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>PRE_OPEN</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>PRE_CLOSE</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>PRE_CLOSE</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>APP1</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>APP1</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>NARROW</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>NARROW</string>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <string>APP2</string>
+      <object class="com.basis.util.common.settings.MetadataItem">
+       <void property="name">
+        <string>APP2</string>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>SAL_HOUR</string>
+     <object class="com.basis.util.common.settings.Metadata" id="Metadata1">
+      <void property="itemMap">
+       <void method="put">
+        <string>EXPAND</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>EXPAND</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>SEARCH</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>SEARCH</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PREC</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PREC</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>HELPFILE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>HELPFILE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>OMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>OMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PROMPT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PROMPT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>BMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>BMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP3</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP3</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COLS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COLS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP1</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP1</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COMPRESS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COMPRESS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP2</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP2</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>INPUT_FLAGS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>INPUT_FLAGS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALIGN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALIGN</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>MAXLEN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>MAXLEN</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>LABEL</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>LABEL</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>TITLE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>TITLE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>IMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>IMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>DEFAULT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>DEFAULT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALT_INPUT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALT_INPUT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ROWS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ROWS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="put">
+     <string>EMPL_ID</string>
+     <object class="com.basis.util.common.settings.Metadata" id="Metadata2">
+      <void property="itemMap">
+       <void method="put">
+        <string>EXPAND</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>EXPAND</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>SEARCH</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>SEARCH</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PREC</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PREC</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>HELPFILE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>HELPFILE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>OMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>OMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PROMPT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PROMPT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>BMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>BMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP3</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP3</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COLS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COLS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP1</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP1</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COMPRESS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COMPRESS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP2</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP2</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>INPUT_FLAGS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>INPUT_FLAGS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALIGN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALIGN</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>MAXLEN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>MAXLEN</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>LABEL</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>LABEL</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>TITLE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>TITLE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>IMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>IMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>DEFAULT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>DEFAULT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALT_INPUT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALT_INPUT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ROWS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ROWS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="put">
+     <string>NAME_LAST</string>
+     <object class="com.basis.util.common.settings.Metadata" id="Metadata3">
+      <void property="itemMap">
+       <void method="put">
+        <string>EXPAND</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>EXPAND</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>SEARCH</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>SEARCH</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PREC</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PREC</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>HELPFILE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>HELPFILE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>OMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>OMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PROMPT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PROMPT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>BMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>BMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP3</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP3</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COLS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COLS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP1</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP1</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COMPRESS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COMPRESS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP2</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP2</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>INPUT_FLAGS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>INPUT_FLAGS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALIGN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALIGN</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>MAXLEN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>MAXLEN</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>LABEL</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>LABEL</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>TITLE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>TITLE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>IMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>IMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>DEFAULT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>DEFAULT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALT_INPUT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALT_INPUT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ROWS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ROWS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="put">
+     <string>DEPT</string>
+     <object class="com.basis.util.common.settings.Metadata" id="Metadata4">
+      <void property="itemMap">
+       <void method="put">
+        <string>EXPAND</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>EXPAND</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>SEARCH</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>SEARCH</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PREC</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PREC</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>HELPFILE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>HELPFILE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>OMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>OMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PROMPT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PROMPT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>BMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>BMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP3</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP3</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COLS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COLS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP1</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP1</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COMPRESS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COMPRESS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP2</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP2</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>INPUT_FLAGS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>INPUT_FLAGS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALIGN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALIGN</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>MAXLEN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>MAXLEN</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>LABEL</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>LABEL</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>TITLE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>TITLE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>IMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>IMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>DEFAULT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>DEFAULT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALT_INPUT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALT_INPUT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ROWS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ROWS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="put">
+     <string>NAME_FIRST</string>
+     <object class="com.basis.util.common.settings.Metadata" id="Metadata5">
+      <void property="itemMap">
+       <void method="put">
+        <string>EXPAND</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>EXPAND</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>SEARCH</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>SEARCH</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PREC</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PREC</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>HELPFILE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>HELPFILE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>OMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>OMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>PROMPT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>PROMPT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>BMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>BMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP3</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP3</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COLS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COLS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP1</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP1</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>COMPRESS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>COMPRESS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>APP2</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>APP2</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>INPUT_FLAGS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>INPUT_FLAGS</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALIGN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALIGN</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>MAXLEN</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>MAXLEN</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>LABEL</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>LABEL</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>TITLE</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>TITLE</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>IMASK</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>IMASK</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>DEFAULT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>DEFAULT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ALT_INPUT</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ALT_INPUT</string>
+         </void>
+        </object>
+       </void>
+       <void method="put">
+        <string>ROWS</string>
+        <object class="com.basis.util.common.settings.MetadataItem">
+         <void property="name">
+          <string>ROWS</string>
+         </void>
+         <void property="value">
+          <int>0</int>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="java.util.HashMap"/>
+  </void>
+  <void method="add">
+   <object class="java.util.HashMap"/>
+  </void>
+  <void method="add">
+   <object class="java.util.HashMap"/>
+  </void>
+  <void method="add">
+   <object class="java.util.HashMap"/>
+  </void>
+ </object>
+</java>

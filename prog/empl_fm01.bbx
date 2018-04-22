@@ -1,0 +1,41 @@
+0100 BEGIN
+0400 REM -----<OPEN FILES
+0410 bbjHome$=System.getProperty("basis.BBjHome")
+0420 LET BASEDIR$="../"
+0430 LET FILENAME$=BASEDIR$+"data/cdj_empls"
+0440 FILE1=UNT
+0450 OPEN(FILE1)FILENAME$
+0500 REM -----<SET EDIT KEYS
+0510 CALL BASEDIR$+"prog/set_keys.bbx"
+0750 REM -----<DISPLAY SCREEN
+0760 GOSUB 20100
+0900 REM -----<GET ATTRIBUTES
+0905 NOFLDS=5
+0910 DIM FLD[NOFLDS,10],FLD$[NOFLDS,6]
+0920 RESTORE 25000
+0930 FOR A9=1 TO NOFLDS
+0940 DREAD FLD$[A9,0],FLD[A9,0],FLD[A9,1],FLD[A9,2],FLD[A9,3],FLD[A9,4],FLD[A9,5],FLD[A9,7],FLD[A9
+0940:,8],FLD[A9,10],FLD$[A9,1],FLD$[A9,2],FLD$[A9,3],FLD$[A9,4],FLD$[A9,5],FLD$[A9,6]
+0950 NEXT A9
+3010 GOTO 29100
+20100 REM -----<PRINT SCREEN LITERALS
+20105 PROGNAME$="Employee Maintenance"
+20110 PRINT 'CS','SB','PE',@(INT(40-(LEN(PROGNAME$)/2)),0),PROGNAME$
+20115 PRINT 'BOX'(0,1,80,21),
+20120 PRINT @(2,3),"*Employee ID :",
+20125 PRINT @(3,4),"Last Name   :",
+20127 PRINT @(3,5),"First Name  :",
+20129 PRINT @(3,7),"Salary/Hour :",
+20145 PRINT @(3,8),"Department  :",
+20185 PRINT @(5,21),"F1=Exit, F2=Delete, F3=Inquiry, F4=Listing",
+20190 PRINT 'SF','PS',; RETURN 
+25000 REM -----<FIELD DEFINITIONS
+25005 REM Format of data stmt: varname, x-coord, y-coord, minval, maxval,pre-e
+25005:dits, post-edits, disp logic, messages, includes, defaults
+25010 DATA "EMPL_ID",17,3,0,6,0,0,0,0,0,"3","Employee ID","K","A00000","",""
+25020 DATA "NAME_LAST",17,4,0,50,0,0,0,0,0,"4","Last Name","F","","",""
+25030 DATA "NAME_FIRST",17,5,0,50,0,0,0,0,0,"4","First Name","","","",""
+25040 DATA "SAL_HOUR",17,7,1,1,0,0,0,0,0,"4","Salary/Hourly","","","S;H",""
+25050 DATA "DEPT",17,8,0,20,0,0,0,0,0,"4","Department","","","",""
+29000 REM -----<CHAIN-OUT
+29100 RUN BASEDIR$+"prog/empl_fm02.bbx"
