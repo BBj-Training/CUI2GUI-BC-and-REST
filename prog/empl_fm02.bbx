@@ -36,8 +36,7 @@
 2560 IF ROUTE$="HOME" THEN GOTO 4100
 2570 IF ROUTE$="F1" THEN GOTO 29000
 2590 IF ROUTE$="F2" THEN GOTO 4300
-2595 IF ROUTE$="F3" THEN GOTO 8000;REM NEW INQUIRY
-2597 IF ROUTE$="F4" THEN GOTO 8500;REM LISTING
+2595 IF ROUTE$="F4" THEN GOTO 8500
 2600 IF ROUTE$="NEXTREC" THEN GOTO 4400
 2610 IF ROUTE$="PRIORREC" THEN GOTO 4500
 2630 IF ROUTE$="UPARROW" THEN GOTO 4200
@@ -109,15 +108,9 @@
 7090 rem escape
 7110 WRITE(FILE1)IOL=2010
 7120 GOTO 2020
-8000 REM Run Barista query
-8040 call "../search.bbj",selectedKey$
-8060 if pos("^"=selectedKey$,-1)=len(selectedKey$) then selectedKey$=selectedKey$(1,len(selectedKey$)-1)
-8070 KEY1$=selectedKey$
-8080 if pos("CANCEL"=key1$)<>0 then key1$=""; goto 2250 else GOTO 2260
 8500 REM -----<RUN FILE LISTING PROGRAM
 8501 REM --- use 8510 to run the traditional PRINT@ report; use 8520 to run the DocOut report
-8510 rem RUN BASEDIR$+"prog/empl_rpt01.bbx"
-8520 RUN BASEDIR$+"prog/empl_rpt01_DO.bbx"
+8510 RUN BASEDIR$+"prog/empl_rpt01.bbx"
 10050 REM -----<SET VALUE OF PRIMARY KEY
 10060 LET KEY1$=A0$
 10090 RETURN 
